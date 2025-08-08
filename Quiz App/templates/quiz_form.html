@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz App</title>
+</head>
+<body>
+    <h1>Simple Quiz</h1>
+    <form action="/result" method="POST">
+        {% for question in questions %}
+            <p><strong>{{ loop.index }}. {{ question }}</strong></p>
+            <input type="text" name="{{ question }}" required><br><br>
+        {% endfor %}
+        <input type="submit" value="Submit Quiz">
+    </form>
+</body>
+</html>
