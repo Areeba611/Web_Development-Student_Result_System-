@@ -11,7 +11,7 @@ The app allows users to take a quiz consisting of multiple questions, submit the
 - Result display with total score.
 
 ---
-# 2. Student Result Submission And Display Application. 
+# 2. Student Result System.
 It collects student details like name, class, subject, and marks and then dynamically displays the result on a new page.
 
 ---
